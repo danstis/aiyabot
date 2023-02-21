@@ -5,7 +5,7 @@ services:
     build:
       context: ..
       dockerfile: dockerfile
-    image: kilvoctu/aiyabot:latest
+    image: ghcr.io/kilvoctu/aiyabot:main
     environment:
       TOKEN: "${TOKEN}"
       TZ: "${TZ}"
